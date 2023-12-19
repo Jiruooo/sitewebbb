@@ -1,0 +1,234 @@
+body {
+    background-color: #150707;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.barre{
+    text-align: center;
+    color: white;
+}
+.bouton {
+    
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    color: #fbc95e;
+    cursor: pointer;
+    padding: 8px 19px;
+    position: relative;
+    border: 1px solid #ab8d41;
+    background-color: transparent;
+    
+
+}
+.bouton:hover {
+        background-color: rgb(130, 107, 49);
+        color: rgb(200, 197, 191);
+}.bouton1 {
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    color: #fbc95e;
+    cursor: pointer;
+    padding: 8px 19px;
+    position: relative;
+    border: 1px solid #ab8d41;
+    background-color: transparent;
+
+}
+.bouton1:hover {
+    background-color: rgb(130, 107, 49);
+    color: rgb(200, 197, 191);
+}
+.bouton2 {
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    color: #fbc95e;
+    cursor: pointer;
+    padding: 8px 19px;
+    position: relative;
+    border: 1px solid #ab8d41;
+    background-color: transparent;
+}
+.bouton2:hover {
+    background-color: rgb(130, 107, 49);
+    color: rgb(200, 197, 191);
+}
+footer {
+    background-image: url(fond1.jpg);
+    background-color: #cccccc;
+    height: 726px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.pc_footer {
+    overflow-x: auto;
+    position: fixed;
+    height: 52px;
+    width: 100%;
+    bottom: 0px;
+    z-index: 999;
+    background-color: #150707;
+}
+.pc_footer_bloc {
+    overflow-x: auto;
+        margin-left: 100px;
+        margin-right: 100px;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+}
+.pc_footer_texte {
+    text-align: center;
+    overflow-x: hidden;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    font-size: 14px;
+    display: inline;
+    color: white
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+h1, h2, h4 {
+    text-align: center;
+} 
+.marque {
+    img
+    border-radius: 50% / 50%;
+    box-shadow: 10px 5px 5px black;
+    width : 50px;
+    height : 50px;
+    background-color: lightblue;
+}
+.produit-image {
+    display: block;
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    object-fit: contain;
+    justify-content: space-around;
+    animation: fadeInAnimation 3s ease-in-out forwards;
+}
+.produits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.produit {
+    width: 25%;
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+.image-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.produit-texte {
+    font-family: 'Oswald', Helvetica, Arial, Lucida, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.7em;
+}
+
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.produit {
+    margin-bottom: 20px;
+}
+
+.produit-texte {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.ajouter {
+    display: block;
+    margin-top: 10px;
+}
+.boutons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ajouter, .retirer {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 19px;
+    border: 1px solid #ab8d41;
+    background-color: transparent;
+    color: #fbc95e;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    cursor: pointer;
+    
+}
+.ajouter:hover, .retirer:hover {
+    background-color: rgb(130, 107, 49);
+    color: rgb(200, 197, 191);
+}
+.panier {
+    float: right;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+}
+
+.panier h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.panier h3 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+#liste-produits {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#liste-produits li {
+    border-bottom: 1px solid #ccc;
+    padding: 8px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total {
+    text-align: right;
+    font-family: Oswald.ttf;
+}
+

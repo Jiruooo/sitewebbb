@@ -1,0 +1,152 @@
+body {
+    background-color: #150707;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family:medio;
+    overflow-x: hidden;
+}
+@font-face {
+    font-family: "medio";
+    src: url(medio.otf);
+}
+
+h1 {
+    text-align: center;
+    overflow-x: hidden;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    display: inline;
+    font-color: rgb(240, 240, 239)
+}
+
+h2 {
+    text-align: center;
+    overflow-x: hidden;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    display: inline;
+    font-color: rgb(220, 219, 216)
+}
+h4 {
+    font-color: rgb(240, 240, 239);
+}
+.deco {
+    background-size: cover;
+    max-width: 100%;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+.barre{
+    text-align: center;
+    color: white;
+}
+.bouton {
+    
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    color: #fbc95e;
+    cursor: pointer;
+    padding: 8px 19px;
+    position: relative;
+    border: 1px solid #ab8d41;
+    background-color: transparent;
+    
+
+}
+.bouton:hover {
+        background-color: rgb(130, 107, 49);
+        color: rgb(200, 197, 191);
+}
+
+.bouton1 {
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    color: #fbc95e;
+    cursor: pointer;
+    padding: 8px 19px;
+    position: relative;
+    border: 1px solid #ab8d41;
+    background-color: transparent;
+
+}
+.bouton1:hover {
+    background-color: rgb(130, 107, 49);
+    color: rgb(200, 197, 191);
+}
+.bouton2 {
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    color: #fbc95e;
+    cursor: pointer;
+    padding: 8px 19px;
+    position: relative;
+    border: 1px solid #ab8d41;
+    background-color: transparent;
+}
+.bouton2:hover {
+    background-color: rgb(130, 107, 49);
+    color: rgb(200, 197, 191);
+}
+.marque {
+    img
+    border-radius: 50% / 50%;
+    box-shadow: 10px 5px 5px black;
+    width : 50px;
+    height : 50px;
+    background-color: lightblue;
+}
+h1, h2, h4 {
+    text-align: center;
+} 
+footer {
+    background-color: #150707;
+    height: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.pc_footer {
+    overflow-x: auto;
+    position: fixed;
+    height: 52px;
+    width: 100%;
+    bottom: 0px;
+    z-index: 999;
+    background-color: #150707;
+}
+.pc_footer_bloc {
+    overflow-x: auto;
+        margin-left: 100px;
+        margin-right: 100px;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+}
+.pc_footer_texte {
+    text-align: center;
+    overflow-x: hidden;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    font-size: 14px;
+    display: inline;
+    color: white
+}
+img {
+    vertical-align: middle;
+  border-style: none;
+}

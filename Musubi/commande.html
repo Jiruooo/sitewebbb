@@ -1,0 +1,148 @@
+<html>
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="pg2.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commande</title>
+    <font-family:'Medio.otf';></font-family:>
+</head>
+<body>
+<a href="index.html">
+<img class = "logo" img src="logo/logo.jpg" height =100px width =100px style="display: block;margin-left: auto;margin-right: auto; auto;padding-top: 15px;"></a>
+<div class="Barre">
+    <div class="Categorie" style="padding-top: 10px;">
+        <a href="index.html" target="_blank"><button class="bouton">Accueil</button></a>
+        <a href="commande.html"><button class="bouton1">Commander</button></a>
+        <a href="apropos.html" target="_blank"><button class="bouton2">à propos</button></a>
+    </div>
+</div>
+<div class="panier">
+    <h2>MUSUBI</h2>
+    <h3>Mon panier</h3>
+    <ul id="liste-produits" style="padding-left: 20px;"></ul>
+    <p>Total TTC : <span id="total-prix">0,00€</span></p>
+</div>
+<div class="produits">
+    <div class="produit" id="SS1">
+        <div class="image-text-container">
+            <img class="produit-image" src="produits/spc.png">
+            <div class="produit-texte">
+                <div class="produit-titre">SS1 5,00€</div>
+                <div class="produit-prix">5,00€</div>
+                <div class="produit-description">CALIFORNIA<br>SAUMON-AVOCAT<br>X6 </div>
+                <button class="ajouter" data-nom="SS1" data-prix="5.00">+</button>
+                <span class="quantite-commandee">0</span>
+                <button class="retirer" data-nom="SS1" data-prix="5.00">-</button>
+            </div>
+        </div>
+    </div>
+    <div class="produit" id="SS2">
+        <div class="image-text-container">
+            <img class="produit-image" src="produits/spc1.png">
+            <div class="produit-texte">
+                <div class="produit-titre">SS2 5,50€</div>
+                <div class="produit-prix">5,50€</div>
+                <div class="produit-description">CROUSTILLANT<br>SAUMON-AVOCAT & CHEESE<br>X6</div>
+                <button class="ajouter" data-nom="SS2" data-prix="5.50">+</button>
+                <span class="quantite-commandee">0</span>
+                <button class="retirer" data-nom="SS2" data-prix="5.50">-</button>
+            </div>
+        </div>
+    </div>
+    <div class="produit" id="SS3">
+        <div class="image-text-container">
+            <img class="produit-image" src="produits/spc2.png">
+            <div class="produit-texte">
+                <div class="produit-titre">SS3 4,10€</div>
+                <div class="produit-prix">4,10€</div>
+                <div class="produit-description">Maki<br>SAUMON<br>X6 </div>
+                <button class="ajouter" data-nom="SS3" data-prix="4.10">+</button>
+                <span class="quantite-commandee">0</span>
+                <button class="retirer" data-nom="SS3" data-prix="4.10">-</button>
+            </div>
+        </div>
+    </div>
+    <div class="produit" id="SS4">
+        <div class="image-text-container">
+            <img class="produit-image" src="produits/spc3.png">
+            <div class="produit-texte">
+                <div class="produit-titre">SS4 4,50€</div>
+                <div class="produit-prix">4,50€</div>
+                <div class="produit-description">Maki<br>SAUMON-AVOCAT<br>X6 </div>
+                <button class="ajouter" data-nom="SS4" data-prix="4.50">+</button>
+                <span class="quantite-commandee">0</span>
+                <button class="retirer" data-nom="SS4" data-prix="4.50">-</button>
+            </div>
+        </div>
+    </div>
+    <div class="produit" id="SS5">
+        <div class="image-text-container">
+            <img class="produit-image" src="produits/spc4.png">
+            <div class="produit-texte">
+                <div class="produit-titre">SS5 4,00€</div>
+                <div class="produit-prix">4,00€</div>
+                <div class="produit-description">SUSHI SAUMON<br>X2</div>
+                <button class="ajouter" data-nom="SS5" data-prix="4.00">+</button>
+                <span class="quantite-commandee">0</span>
+                <button class="retirer" data-nom="SS5" data-prix="4.00">-</button>
+            </div>
+        </div>
+    </div>
+    <div class="produit" id="SS6">
+        <div class="image-text-container">
+            <img class="produit-image" src="produits/spc5.png">
+            <div class="produit-texte">
+                <div class="produit-titre">SS6 4,50€</div>
+                <div class="produit-prix">4,50€</div>
+                <div class="produit-description">SUSHI THON<br>X2</div>
+                <button class="ajouter" data-nom="SS6" data-prix="4.50">+</button>
+                <span class="quantite-commandee">0</span>
+                <button class="retirer" data-nom="SS6" data-prix="4.50">-</button>
+            </div>
+        </div>
+    </div>
+    <div class="produit" id="SS7">
+        <div class="image-text-container">
+            <img class="produit-image" src="produits/spc6.png">
+            <div class="produit-texte">
+                <div class="produit-titre">SS7 6,00€</div>
+                <div class="produit-prix">6,00€</div>
+                <div class="produit-description">SUSHI ST-JACQUES<br>X2</div>
+                <button class="ajouter" data-nom="SS7" data-prix="6.00">+</button>
+                <span class="quantite-commandee">0</span>
+                <button class="retirer" data-nom="SS7" data-prix="6.00">-</button>
+            </div>
+        </div>
+    </div>
+    <div class="produit" id="SS8">
+        <div class="image-text-container">
+            <img class="produit-image" src="produits/spc7.png">
+            <div class="produit-texte">
+                <div class="produit-titre">SS8 5,00€</div>
+                <div class="produit-prix">5,00€</div>
+                <div class="produit-description">SUSHI THON BRAISÉ<br>X2</div>
+                <button class="ajouter" data-nom="SS8" data-prix="5.00">+</button>
+                <span class="quantite-commandee">0</span>
+                <button class="retirer" data-nom="SS8" data-prix="5.00">-</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+<footer>
+    <h1><br></h1> <h1>Livraison à partir de 20€</h1>   
+        
+    <h1><br></h1> <h1>Votre restaurant ouvert 7j/7 :</h1> 
+    <h2>Lundi au vendredi - service non stop </h2> 
+    <h1>12h00 - 15h00<br>18h00 - 23h00</h1>   
+    
+    <h1><br></h1><h1><a href="tel:00 11 22 33 44">00 11 22 33 44</a><br><a href="tel:44 33 22 11 00">44 33 22 11 00</a></h1> 
+    <h2 style="margin-bottom: 50px;"><a href="https://maps.app.goo.gl/WfxjcmxHvvuVcpG2A">012 Avenue konexio<br>00123 Konexio</a></h2></div><div class="pc_footer">
+    <div class="pc_footer">
+        <div class="pc_footer">
+            <div class="pc_footer_texte"> <img class="marque" src="logo/logo.jpg"> © MUSUBI. All rights Reserved. Développé par Tabene Guo </div>   
+    </div></div></div>
+    </footer>
+</html>

@@ -1,0 +1,163 @@
+élément {
+    background-image: url(fond1.jpg);
+}
+.main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#portrait {
+    img
+    border-radius: 50% / 50%;
+    box-shadow: 10px 5px 5px black;
+    width : 200px;
+    height : 150px;
+    background-color: lightblue;
+}
+@font-face {
+    font-family: "medio";
+    src: url(medio.otf);
+}
+body  {
+    font-family:medio;
+    overflow-x: hidden;
+    background-color: #150707;
+  }
+.choix {
+    display:flex
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+  .Accueil {
+    background-image: url("fond1.jpg");
+    background-color: #cccccc;
+    height: 726px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+  }
+  
+  .Accueil-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+
+.bouton {
+    
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    color: #fbc95e;
+    cursor: pointer;
+    padding: 8px 19px;
+    position: relative;
+    border: 1px solid #ab8d41;
+    background-color: transparent;
+    
+
+}
+.bouton:hover {
+        background-color: rgb(130, 107, 49);
+        color: rgb(200, 197, 191);
+}
+
+.bouton1 {
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    color: #fbc95e;
+    cursor: pointer;
+    padding: 8px 19px;
+    position: relative;
+    border: 1px solid #ab8d41;
+    background-color: transparent;
+
+}
+.bouton1:hover {
+    background-color: rgb(130, 107, 49);
+    color: rgb(200, 197, 191);
+}
+.bouton2 {
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    color: #fbc95e;
+    cursor: pointer;
+    padding: 8px 19px;
+    position: relative;
+    border: 1px solid #ab8d41;
+    background-color: transparent;
+}
+.bouton2:hover {
+    background-color: rgb(130, 107, 49);
+    color: rgb(200, 197, 191);
+}
+.marque {
+    img
+    border-radius: 50% / 50%;
+    box-shadow: 10px 5px 5px black;
+    width : 50px;
+    height : 50px;
+    background-color: lightblue;
+}
+h1, h2, h4 {
+    text-align: center;
+} 
+footer {
+    background-image: url(fond1.jpg);
+    background-color: #cccccc;
+    height: 726px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.pc_footer {
+    overflow-x: auto;
+    position: fixed;
+    height: 52px;
+    width: 100%;
+    bottom: 0px;
+    z-index: 999;
+    background-color: #150707;
+}
+.pc_footer_bloc {
+    overflow-x: auto;
+        margin-left: 100px;
+        margin-right: 100px;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+}
+.pc_footer_texte {
+    text-align: center;
+    overflow-x: hidden;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    font-size: 14px;
+    display: inline;
+    color: white
+}
+img {
+    vertical-align: middle;
+  border-style: none;
+}

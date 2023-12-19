@@ -1,0 +1,48 @@
+<div class="entete"><div class="meta-menu-middle"></div> 
+  <a href="pc_menu_accueil.php">
+    <span>ACCUEIL</span>
+  </a>
+</div>
+<div class="Barre">
+    <div class="Categorie">
+        <a href="index.html" target="_blank"><button class="bouton">Accueil</button></a>
+        <a href="page2.html"><button class="bouton1">Commander</button></a>
+        <a href="apropos.html" target="_blank"><button class="bouton2">à propos</button></a>
+    </div>
+</div>
+<div class="main" style="background-image: fond.jpg"></div>
+    <img src="logo.jpg" height =100px width =100px style="display: block;margin-left: auto;margin-right: auto; auto;padding-top: 15px;">
+    <div id="sushi" class="sub_category">
+        <div class="submenu-titre"><span> SUSHI </span></div><div class="produits"><div class="produit col-lg-3" id="SS1">
+          <img class="produit-image"> 
+          <img src="fond2.jpg" height =100px width =170px style="display: block;margin-left: auto;margin-right: auto; auto;width: 600px;height: 300px;">
+          <div class="produit-texte">
+            <div class="produit-titre">SS1&nbsp;&nbsp;&nbsp;4,90€</div>
+            <div class="produit-description">SUSHI SAUMON X2</div>
+          </div>
+        </div><div class="produit col-lg-3" id="SS2">
+          <img class="produit-image" src="produits/spc1.jpg">
+          <div class="produit-texte">
+            <div class="produit-titre">SS2&nbsp;&nbsp;&nbsp;5,20€</div>
+            <div class="produit-description">SUSHI THON X2</div>
+          </div>
+        </div><div class="produit col-lg-3" id="SS3">
+          <img class="produit-image" src="/image/XLFISH92160/produit/SS3.png">
+          <div class="produit-texte">
+            <div class="produit-titre">SS3&nbsp;&nbsp;&nbsp;4,90€</div>
+            <div class="produit-description">SUSHI MULET X2</div>
+          </div>
+        </div><div class="produit col-lg-3" id="SS4">
+          <img class="produit-image" src="/image/XLFISH92160/produit/SS4.png">
+          <div class="produit-texte">
+            <div class="produit-titre">SS4&nbsp;&nbsp;&nbsp;4,80€</div>
+            <div class="produit-description">SUSHI DAURADE X2</div>
+          </div>
+          </div>
+        </div></div>
+    
+        <div class="pc_footer">
+            <div class="pc_footer">
+                <div class="pc_footer_texte"> <img class="marque" src="logo.jpg"> © MUSUBI. All rights Reserved. Développé par tabene </div>
+        
+      </div></div></div>
